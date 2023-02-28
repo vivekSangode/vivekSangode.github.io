@@ -70,17 +70,13 @@ var typed = new Typed(".typing", {
     loop: true,
 })
 
-// document.getElementById('resume-button-1').addEventListener("click",()=>{
-//   // console.log("OPENinig.....")
-//   window.location.assign("https://drive.google.com/file/d/10C5IVHqeM2huu0F-KyZHNAo3XD0VGp9w/view?usp=share_link", "_blank");
-// })
 
-document.getElementById('resume-link-1').addEventListener("click", () => {
+document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
     window.location.assign("https://drive.google.com/file/d/1ufbe_LN-Mf_CP8wkUyHzxc0yrBRWg8XG/view?usp=share_link", "_blank");
 })
 
-document.getElementById('resume-link-2').addEventListener("click", () => {
+document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
     window.location.assign("https://drive.google.com/file/d/1ufbe_LN-Mf_CP8wkUyHzxc0yrBRWg8XG/view?usp=share_link", "_blank");
 })
