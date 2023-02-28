@@ -5,7 +5,6 @@
 }
 
 body {
-    /* background-color: #fff; */
     background-color: RGB(35, 40, 62);
 }
 
@@ -207,6 +206,24 @@ nav .fas {
     display: inline-block;
     color: #90A0D9;
     background: none;
+    border: none;
+    color: #90A0D9;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* #home .home-content a:hover {
+    background: #90A0D9;
+    color: RGB(35, 40, 62);
+} */
+
+#resume-button-2{
+    display: inline-block;
+    color: #90A0D9;
+    background: none;
     border: 1px solid #90A0D9;
     color: #90A0D9;
     font-size: 25px;
@@ -216,13 +233,15 @@ nav .fas {
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
+    cursor: pointer;
 }
 
-#home .home-content a:hover {
+#resume-button-2:hover{
     background: #90A0D9;
-    color: RGB(35, 40, 62);
 }
-
+#resume-button-2:hover>a{
+    color: RGB(35, 40, 62);
+} 
 /* ................................About Section............................. */
 #about {
     margin: auto;
