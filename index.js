@@ -11,7 +11,7 @@ toggle.addEventListener('click', function () {
         document.querySelector('#one>.text-1').style.transition = "2s";  
         document.querySelector('#one>.text-3>span').style.color = "#B4BDDD";
         document.querySelector('#one>.text-3>span').style.transition = "2s"; 
-        document.querySelector('#resume-button-2>a').style.color = "#90A0D9";
+        document.querySelector('#resume-link-2').style.color = "#B4BDDD";
         document.querySelector('#resume-button-2').style.transition = "2s";
         document.querySelector('#resume-button-2').style.border = "1px solid #90A0D9";
         document.querySelector('#about>h1').style.color = "#90A0D9";
