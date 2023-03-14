@@ -267,7 +267,7 @@ nav .fas {
     color: #90A0D9;
 }
 
-.about-section {
+.about-section1 {
     margin: auto;
     margin-top: 4%;
     width: 70%;
@@ -275,7 +275,7 @@ nav .fas {
     justify-content: space-between;
 }
 
-.about-section>div>img {
+.about-section1>div>img {
     width: 80%;
     border-radius: 30px;
 }
