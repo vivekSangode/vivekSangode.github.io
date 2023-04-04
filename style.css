@@ -785,7 +785,6 @@ nav .fas {
     #contact>div>div>h1 {
         font-size: 30px;
         cursor: pointer;
-        color: white;
     }
 
     .github{
@@ -809,7 +808,6 @@ nav .fas {
     #contact>div>div>h1 {
         font-size: 20px;
         cursor: pointer;
-        color: white;
     }
     .skill {
         display: grid;
