@@ -28,7 +28,7 @@
                         <a class="nav-link resume" id="resume-link-1" href='Vivek-Sangode-Resume.pdf'
                             download="Vivek-Sangode-Resume">RESUME</a>
                     </li>
-                    <li><i class="bi bi-brightness-high" id="toggle"></i></li>
+                    <li><i class="bi bi-moon-fill" id="toggle"></i></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -225,6 +225,8 @@
     </section>
 
     <!-------------------- GitHUB ---------------------->
+
+    
     <section class="github-activity-calendar">
         <h1>GITHUB STATISTIC</h1>
         <div class="github">
@@ -255,7 +257,40 @@
     </section>
 
     <!-------------------- CONTACTS ---------------------->
-    <section id="contact">
+    <!-- contact section  -->
+    <div id="contact">
+        <p id="heading">Contact me</p>
+        <div id="contact-mail">
+           <img src="img/contact_email.jpg" alt="Man standing">
+            <form action="">
+                <input id="form-email" placeholder="Enter email address" type="email">
+                <textarea name="form-message" id="form-message" cols="30" rows="10" placeholder="Enter message..."></textarea>
+                <input id="form-submit" type="submit" value="Send Message">
+            </form>
+        </div>
+        <div id="contact-socials">
+            <div id="contact-socials-container">
+                <div id="contact-not-git">
+                    <p>My social media links:</p>
+                    <div id="contact-not-git-container">
+                        <a id="contact-linkedin" target="_blank" href="https://www.linkedin.com/in/vivek-sangode-552095212/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                        <span id="contact-phone"><i class="fa-brands fa-whatsapp"></i> 9834196967</span>
+                        <span id="contact-email" href="#contact-mail"><i class="fa-solid fa-envelope"></i> vivekusangode@gmail.com</span>
+                    </div>
+                </div>
+                <div id="contact-git">
+                    <p>More projects I've worked on:</p>
+                    <div id="contact-git-container">
+                        <a target="_blank" id="contact-github" href="https://github.com/vivekSangode"><i class="fa-brands fa-github"></i></a>
+                        <p><a style="color: #1a7dff;" target="_blank" href="https://github.com/vivekSangode">@vivekSangode</a> on github</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    <!-- <section id="contact">
         <div>
             <h1>CONTACT</h1>
             <p id="contact-phone">Contact Number - 9834196967</p>
@@ -267,7 +302,7 @@
                 <h1 onclick="email()"><i class="bi bi-envelope-fill"></i></h1>
             </div>
         </div>
-    </section>
+    </section> -->
 </body>
 
 </html>
