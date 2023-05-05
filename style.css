@@ -5,7 +5,8 @@
 }
 
 body {
-    background: linear-gradient(220deg,#fcfcfc,#d1aafcc5 , #fcfcfc);
+    background-color: white;
+    /* background: linear-gradient(220deg,#fcfcfc,#d1aafcc5 , #fcfcfc); */
 }
 
 #nav-menu {
@@ -254,11 +255,11 @@ nav .fas {
 }
 
 #resume-button-2:hover {
-    background: #94a2d4;
+    background: #3e425a;
 }
 
 #resume-button-2:hover>a {
-    color: RGB(35, 40, 62);
+    color: white;
 }
 
 /* ................................About Section............................. */
@@ -495,8 +496,7 @@ nav .fas {
 }
 
 .calendar {
-    width: 90%;
-    color: white;
+    width: 80%;
     margin: auto;
 }
 
