@@ -188,13 +188,13 @@ nav .fas {
 
 #home .home-content .text-1 {
     font-size: 40px;
-    color: #B4BDDD;
+    color: #3e425a;
 }
 
 #home .home-content .text-2 {
-    font-size: 70px;
-    font-weight: 500;
-    color: rgba(12, 12, 12, 0.61);
+    font-size: 60px;
+    font-weight: 550;
+    color: #343D68;
 }
 
 #home .home-content .text-3 {
@@ -203,13 +203,13 @@ nav .fas {
 }
 
 #home .home-content .text-3 span {
-    color: #B4BDDD;
-    font-weight: 600;
+    color: #3e425a;
+    font-weight: 500;
 }
 
 #home .home-content a {
     display: inline-block;
-    color: #90A0D9;
+    color: #3e425a;
     background: none;
     border: none;
     font-size: 25px;
@@ -240,9 +240,9 @@ nav .fas {
 
 #resume-button-2 {
     display: inline-block;
-    color: #90A0D9;
+    color: #3e425a;
     background: none;
-    border: 1px solid #90A0D9;
+    border: 1px solid #3e425a;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 28px;
@@ -254,7 +254,7 @@ nav .fas {
 }
 
 #resume-button-2:hover {
-    background: #90A0D9;
+    background: #94a2d4;
 }
 
 #resume-button-2:hover>a {
@@ -273,7 +273,7 @@ nav .fas {
 #about h1 {
     text-align: center;
     font-size: 40px;
-    color: #90A0D9;
+    color: #3e425a;
 }
 
 .about-section1 {
@@ -292,7 +292,7 @@ nav .fas {
 #user-detail-intro {
     margin-top: 3%;
     margin-left: 10%;
-    color: #90A0D9;
+    color: #000000;
     font-size: 18px;
     font-weight: 500;
 }
@@ -300,7 +300,7 @@ nav .fas {
 
 /* ..............................Skill Section......................... */
 #skills h1 {
-    color: #90A0D9;
+    color: #3e425a;
     text-align: center;
     font-size: 40px;
     margin-bottom: 4%;
@@ -349,9 +349,9 @@ nav .fas {
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
-    color: #fafafa;
-    text-shadow: 2px 2px 2px  rgb(54, 54, 54);
-    font-weight: 400;
+    color: #3e425a;
+    /* text-shadow: 2px 2px 2px  rgb(23, 24, 26); */
+    /* font-weight: 400; */
 }
 
 .project {
@@ -371,8 +371,7 @@ nav .fas {
     /* box-shadow: 2px 2px 2px rgb(0, 0, 0); */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     /* background-color: RGB(35, 40, 62); */
-    background: linear-gradient(220deg, #3db8ff81,rgba(245, 240, 240, 0.281), #3db8ff81);
-    color: #90A0D9;
+    background: linear-gradient(220deg, rgba(245, 240, 240, 0.281),rgba(245, 240, 240, 0.281), rgba(245, 240, 240, 0.281));
     margin-bottom: 5%;
     padding: 3% 1% 3% 1%;
     border-radius: 20px;
@@ -422,7 +421,7 @@ nav .fas {
 .project-github-link {
     display: flex;
     width: 35%;
-    border: 1px solid #90A0D9;
+    border: 1px solid #3e425a;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -430,22 +429,22 @@ nav .fas {
 
 .project-github-link a {
     text-decoration: none;
-    color: #90A0D9;
+    color: #3e425a;
 }
 
 .project-github-link:hover {
-    background-color: #90A0D9;
+    background-color: #3e425a;
 }
 
 .project-github-link:hover a {
-    background-color: #90A0D9;
-    color: RGB(35, 40, 62);
+    background-color: #3e425a;
+    color: white;
 }
 
 .project-deployed-link {
     display: flex;
     width: 35%;
-    border: 1px solid #90A0D9;
+    border: 1px solid #3e425a;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -453,16 +452,16 @@ nav .fas {
 
 .project-deployed-link a {
     text-decoration: none;
-    color: #90A0D9;
+    color: #3e425a;
 }
 
 .project-deployed-link:hover {
-    background-color: #90A0D9;
+    background-color: #3e425a;
 }
 
 .project-deployed-link:hover a {
-    background-color: #90A0D9;
-    color: RGB(35, 40, 62);
+    background-color: #3e425a;
+    color: white;
 }
 
 
@@ -479,7 +478,7 @@ nav .fas {
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
-    color: #90A0D9;
+    color: #3e425a;
 }
 
 .github {
@@ -524,11 +523,12 @@ nav .fas {
     height:max-content;
     mix-blend-mode: multiply;
 }
-#heading{
-    color: #E84949;
+#contact>h1{
     text-align: center;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    color: #3e425a;
 }
 #contact-mail>form{
     display: flex;
